@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg4"
+            android:orientation="vertical">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PRESENT"
+                android:textSize="40dp"
+                android:layout_marginTop="40dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-black"
+                android:layout_gravity="center_horizontal"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:text="1. Present Continuous Tense"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="30dp"
+                android:text="@string/present_continuous"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:text="Rumus : "
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (+) S + am/is/are + Ving"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (-) S + am/is/are + not + Ving"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (?) Am/is/are + S + Ving?"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:text="Contoh : "
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (+) She is reading a magazine"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (-) She is not reading a magazine"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (?) Is she reding a magazine?"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="10dp"
+                android:text="2. Present Perfect Tense"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:text="@string/present_perfect"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:text="Rumus : "
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (+) S + have/has + V3"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (-)  S + have/has + not + V3"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (?) Have/has + S + V3?"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:text="Contoh : "
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (+) She has eaten an apple"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (-) She has not eaten an apple"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (?) Has she eaten an apple?"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="10dp"
+                android:text="3. Present Perfect Continuous Tense"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:text="@string/present_perfect_continuous"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:text="Rumus : "
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (+) S + have/has + been + Ving"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (-)  S + have/has + not + been + Ving"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (?) Have/has + S + been + Ving?"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:text="Contoh : "
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (+)  She has been waiting for you since she was at senior high school"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (-)  She has not been waiting for you since she was at senior high school"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (?)  Has She been waiting for you since she was at senior high school?"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+
+    </LinearLayout>
+</ScrollView>

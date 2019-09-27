@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Sixteen Tenses</string>
+    <string name="simple_present">Simple Present Tense untuk menyatakan fakta, kebiasaan, dan kejadian yang terjadi pada
+        saat sekarang ini.
+    </string>
+    <string name="simple_past">Simple Past Tense untuk menunjukkan bahwa suatu kejadian terjadi di masa lampau.</string>
+    <string name="simple_future">Simple Future Tense untuk menyatakan bahwa suatu aksi terjadi dimasa depan, secara
+        spontan atau terencana.
+    </string>
+    <string name="present_continuous">Simple Present Continuous Tense untuk membicarakan aksi yang sedang berlangsung
+        sekarang atau rencana dimasa depan.
+    </string>
+    <string name="present_perfect">Present Perfect Tense digunakan untuk mengungkapkan suatu aktivitas atau situasi yang
+        telah dimulai di masa lalu dan telah selesai pada suatu titik waktu tertentu di masa lalu atau masih berlanjut
+        sampai sekarang.
+    </string>
+    <string name="present_perfect_continuous">Present Perfect Continuous Tense untuk mengungkapkan aksi yang telah
+        selesai pada suatu titik dimasa lampau atau aksi telah dimulai di masa lalu dan terus berlanjut sampai sekarang.
+        Biasanya aksi tersebut ada durasi waktu tertentu dan ada relevansinya dengan kondisi sekarang.
+    </string>
+    <string name="past_continuous">Past Continuous Tense digunakan untuk mengungkapkan bahwa suatu aksi sedang terjadi
+        pada waktu tertentu di masa lampau.
+    </string>
+    <string name="past_perfect">Past Perfect Tense untuk menyatakan bahwa suatu aksi telah selesai pada suatu titik di
+        masa lalu sebelum aksi lainnya terjadi.
+    </string>
+    <string name="past_perfect_continuous">Past Perfect Continuous digunakan untuk mengungkapkan suatu aksi (dengan
+        durasi waktu tertentu) telah selesai pada suatu titik waktu tertentu dimasa lalu.
+    </string>
+    <string name="past_future">Past Future Tense digunakan dalam menyatakan keinginan, harapan, atau rencana di masa
+        mendatang, seperti tujuan penggunaannya pada pola future tense
+    </string>
+    <string name="past_future_perfect">Past Future Perfect Tense untuk membicarakan suatu aksi yang tidak terjadi di
+        masa lalu
+    </string>
+    <string name="past_future_continuous">Past Future Contunuous Tense adalah suatu bentuk kata kerja untuk menyatakan
+        aksi atau situasi imajiner yang sedang berlangsung apabila unreal condition-nya terpenuhi (present continuous
+        conditional ~ conditional sentence type 2 dengan continuous tense).
+    </string>
+    <string name="past_future_perfect_continuous">Past Future Perfect Continuous Tense adalah suatu bentuk kata kerja
+        untuk menyatakan suatu aksi atau situasi imajiner sedang berlangsung pada titik tertentu atau selama periode
+        tertentu di masa lampau (perfect continuous conditional ~ conditional type 3 dengan continuous).
+    </string>
+    <string name="future_perfect">Future Perfect Tense untuk mengungkapkan bahwa suatu aktivitas akan sudah selesai pada
+        suatu titik waktu di masa depan.
+    </string>
+    <string name="future_continuous">Future Continuous Tense untuk mengungkapkan aksi yang akan sedang terjadi pada
+        waktu tertentu di masa depan.
+    </string>
+    <string name="future_perfect_continuous">Future Perfect Continuous Tense untuk mengungkapkan bahwa suatu aksi akan
+        sudah berlangsung selama sekian lama pada titik waktu tertentu di masa depan.
+    </string>
+    <string name="about">Aplikasi ini dibuat untuk mempermudah para pelajar untuk mengetahui 16 tenses atau rumus bahasa inggris. Didalam aplikasi ini terdapat rumus dan juga contoh daripada rumus tersebut. Rumus yang saya tulis dalam aplikasi ini terdapat rumus positif, negatif dan interogatif.</string>
+</resources>

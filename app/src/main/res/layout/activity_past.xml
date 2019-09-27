@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg4"
+            android:orientation="vertical">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PAST"
+                android:textSize="40dp"
+                android:layout_marginTop="40dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-black"
+                android:layout_gravity="center_horizontal"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="10dp"
+                android:text="1. Past Perfect Tense"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:text="@string/past_perfect"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:text="Rumus : "
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (+) S + Had + V3"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (-) S + Had + not + V3"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (?) Had + S + V3 "
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:text="Contoh : "
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (+) She had finished doing her homework before you came here"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (-) She had not finished doing her homework before you came here"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (?) had She finished doing her homework before you came here?"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:text="2. Past Continuous Tense"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="30dp"
+                android:text="@string/past_continuous"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:text="Rumus : "
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (+) S + was/were + Ving"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (-) S + was/were + not + Ving"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (?) Was/were + S + Ving"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:text="Contoh : "
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (+) She was watching television at 2 o’clock"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (-) She was not watching television at 2 o’clock"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (?) was  She watching television at 2 o’clock?"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="10dp"
+                android:text="3. Past Perfect Continuous Tense"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:text="@string/past_perfect_continuous"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:text="Rumus : "
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (+) S + had + been + Ving"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (-) S + had + not + been + Ving"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (?) had + S + been + Ving"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:text="Contoh : "
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (+) She had been playing badminton at 7 o’clock"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (-) She had not been playing badminton at 7 o’clock"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (?) had She been playing badminton at 7 o’clock?"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="10dp"
+                android:text="4. Past Future Tense"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:text="@string/past_future"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:text="Rumus : "
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (+) S + would + Infinitive/V1"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (-) S + would + not + Infinitive/V1"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (?) Would + S + Infinitive/V1"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:text="Contoh : "
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (+) she would finish washing if you didn’t come here."
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (-) she would not finish washing if you didn’t come here."
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (?) would she finish washing if you didn’t come here."
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="10dp"
+                android:text="5. Past Future Perfect Tense"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:text="@string/past_future_perfect"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:text="Rumus : "
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (+) S + would + have + been + V3"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (-) S + would + not + have + been + V3"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (?) Would + S + have + been + V3"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:text="Contoh : "
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (+) This office would have been painted if all workers had came yesterday."
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (-) This office would not have been painted if all workers had came yesterday"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (?) Would This office have been painted if all workers had came yesterday?"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="10dp"
+                android:text="6. Past Future Continuous Tense"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:text="@string/past_future_continuous"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:text="Rumus : "
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (+) S + would + be + Ving"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (-) S + would + not + be + Ving"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (?) Would + S + be + Ving"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:text="Contoh : "
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (+) she would be finish cooking if the stove is not broken"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (-) she would not be finish cooking if the stove is not broken"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (?) would she be finish cooking if the stove is not broken"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="10dp"
+                android:text="7. Past Future Perfect Continuous Tense"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:text="@string/past_future_perfect_continuous"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:text="Rumus : "
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (+) S + would + have + been + Ving"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (-) S + would + not + have + been + Ving"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (?) Would + S + have + been + Ving?"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:text="Contoh : "
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (+) she would have been sleeping if the fan was not broken"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (-) she would not have been sleeping if the fan was broken"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:text="• (?) would she have been sleeping if the fan was broken ?"
+                android:textSize="17dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"/>
+
+    </LinearLayout>
+</ScrollView>
